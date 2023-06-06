@@ -36,7 +36,7 @@ body {
   font-size: 18px;
   text-align: center;
 }
-img {
+.logo {
   display: block;
   margin: auto;
   width: 100px;
@@ -174,7 +174,10 @@ nav a:hover {
   background-color:#4c5f6b;
   line-height: 3em;
 }
-
+img {
+  width: 600px;
+  height: 800px;
+}
 .top {
   grid-area: top;
   border-left: 1px solid;
