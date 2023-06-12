@@ -196,6 +196,68 @@ h2 {
     margin: auto;
     display: inline;
 }
+.encounters-title {
+    color: #1f3c5c;
+    font-family: 'Permanent Marker';
+    font-size: 50px;
+    text-align: center;
+}
+.encounters-subtitle {
+    color:#1f3c5c;
+    font-family: 'Permanent Marker';
+    font-size: 20px;
+    text-align: center;
+    display: flex;
+    margin: 50px;
+}
+h5 {
+    color:#dffdff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    background-color: #90bede;
+}
+h6 {
+    color:#dffdff;
+    font-family: 'Oswald';
+    font-size: 20px;
+    text-align: center;
+    padding: 50px;
+    background-color: #90bede;
+}
+.animals, h1 {
+    color: #1f3c5c;
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    text-align: center;
+    display: block;   
+}
+.animals, h2 {
+    color: #1f3c5c;
+    font-family: 'Permanent Marker';
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.scorpionpic {
+    width: 300px;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
+}
+.sheeppic {
+    width: 400px;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
+}
+.riverpan {
+    width: 100%;
+    height: 300px;
+    margin-top: 75px;
+    margin-bottom: -75px;
+}
 footer p{
     font-size: 1.2em;
     font-family: 'Oswald';
