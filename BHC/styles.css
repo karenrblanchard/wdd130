@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Yeseva+One&display=swap');
+
+nav, a {
+    color:#3f3949;
+    font-family: Quicksand;
+    text-decoration: none;
+    text-align: center;
+    padding: 35px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+h1{
+    color:#3f3949;
+    font-family: Yeseva One;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-left: 21px;
+    margin-right: 21px;
+}
+#welcome {
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10, 10%);
+}
+.greeter {
+    width: 500px;
+    height: 400px;
+    grid-column: 1/4;
+    grid-row-start: 2/6;
+}
+.glasshotel {
+    width: 300px;
+    height: 500px;
+    grid-column: 7/10;
+}
+.logo {
+    width: 200px;
+    height: 200px;
+   margin-left: 450px;
+   margin-top: -25px;
+}
+.welcome, a {
+    width: 100%;
+    color:#3f3949;
+    font-family: Quicksand;
+    text-decoration: none;
+    font-size: 20px;
+    grid-column: 1/4;
+    grid-row: 2/4;
+}
+.button-box{
+    color:#3f3949;
+    text-align: center;
+}
+.reviews, h1 {
+    color:#3f3949;
+    font-family: Quicksand;
+    text-decoration: none;
+    font-size: 20px;
+}
+.reviews, h2 {
+    color:#3f3949;
+    font-family: Quicksand;
+    text-decoration: none;
+    font-size: 20px;
+}
+
