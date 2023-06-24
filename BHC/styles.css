@@ -91,6 +91,15 @@ nav a {
     grid-column: 5/6;
     grid-row: 6/7;
 }
+.learn-more {
+    color: white;
+    font-family: 'Quicksand';
+    text-align: center;
+    text-decoration: none;
+    border-radius: 15px;
+    font-size: 16px;
+    padding: 5px;
+}
 .reviews {
     background-color: #3f3949;
     box-shadow: 10px 10px 20px #0f1a1d;
