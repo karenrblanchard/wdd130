@@ -261,7 +261,7 @@ footer h1 {
     display: grid;
     background-color: #bac7c7;
     grid-template-columns: 50px 50px 300px 50px 300px 50px 50px 50px 50px;
-    grid-template-rows: 50px 50px 50px 300px 50px 50px 300px 50px 50px 300px 50px 50px;
+    grid-template-rows: 50px 50px 50px 300px 50px 50px 300px 50px 50px 150px 50px 50px 100px;
 }
 .logo-services {
     width: 200px;
@@ -280,10 +280,10 @@ footer h1 {
     grid-column: 2/6;
     grid-row: 1/2;
 }
-#dra {
+#dra, a {
     color:#3f3949;
     font-family: 'Yeseva One';
-    font-size: 20px;
+    font-size: 30px;
     grid-column: 2/6;
     grid-row: 3/4;
 }
@@ -304,6 +304,7 @@ footer h1 {
 }
 .button-box-revenue {
     color:#bac7c7;
+    width: 150px;
     height: 25px;
     text-align: center;
     text-decoration: none;
@@ -313,10 +314,9 @@ footer h1 {
     font-size: 18px;
     padding: 10px;
     border-radius: 10px;
-    grid-column: 11/12;
+    grid-column: 10/11;
     grid-row: 5/6;
     margin-top: -150px;
-    margin-left: -100px;
 }
 .nps {
     color:#3f3949;
@@ -324,7 +324,6 @@ footer h1 {
     font-size: 20px;
     grid-column: 2/4;
     grid-row: 6/7;
-    margin-left: 25px;
 }
 .handshake {
     width: 300px;
@@ -343,6 +342,7 @@ footer h1 {
 }
 .button-box-startups {
     color:#bac7c7;
+    width: 150px;
     height: 25px;
     text-align: center;
     text-decoration: none;
@@ -354,6 +354,8 @@ footer h1 {
     border-radius: 10px;
     grid-column: 9/10;
     grid-row: 8/9;
+    margin-top: -125px;
+    margin-left: 50px;
 }
 .staff-training {
     color:#3f3949;
@@ -379,7 +381,9 @@ footer h1 {
     grid-row: 10/11;
 }
 .button-box-training {
-    color: #bac7c7;
+    color:#bac7c7;
+    width: 150px;
+    height: 25px;
     text-align: center;
     text-decoration: none;
     font-family: 'Quicksand';
@@ -387,9 +391,9 @@ footer h1 {
     text-decoration: none;
     font-size: 18px;
     padding: 10px;
-    grid-column: 11/12;
+    border-radius: 10px;
+    grid-column: 10/11;
     grid-row: 11/12;
-    margin-top: -150px;
-    margin-left: -100px;
-  
+    margin-top: 50px;
+
 }
